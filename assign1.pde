@@ -24,6 +24,7 @@ void setup(){
 void draw(){
   image(bg2Image,x2,0);
   image(bg1Image,x2-640,0);
+  image(bg2Image,x2-1280,0);
   image(enemyImage,x,y);
   image(treasureImage,x1,y1);
   image(fighterImage,570,240);  
@@ -34,6 +35,6 @@ void draw(){
   x+=5;
   x%=640;
   x2++;
-  x2%=640;
+  x2%=1280;
  
 }
